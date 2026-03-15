@@ -39,7 +39,7 @@ class Sale(BaseModel):
     cost: Decimal
 
     def index(self) -> str:
-        return self.car_vin
+        return self.sales_number
 
 
 class CarFullInfo(BaseModel):
